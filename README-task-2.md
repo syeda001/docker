@@ -1,5 +1,11 @@
 # docker
 docker-poc-wordpress
+pre-requisites:
+docker-engine
+docker-compose
+docker swarm( cluster with 3 nodes)
+
+...........................................................................................................................................
 1. Create an empty project directory.
    For example name : wordpress
        cd wordpress/
