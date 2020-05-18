@@ -1,5 +1,4 @@
 FROM centos:7
-
 MAINTAINER arshi
 RUN yum update -y && yum upgrade -y
 RUN yum install epel-release -y
