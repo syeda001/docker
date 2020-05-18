@@ -4,8 +4,7 @@ docker-poc-wordpress
    For example name : wordpress
        cd wordpress/
 2. Create a docker-compose.yml file that starts your WordPress blog and a separate MySQL instance with a volume mount for data persistence:
-   provided as docker-compose-wordpress.yml
-   
+   provided as docker-compose-wordpress.yml 
 Notes:
 The docker volume db_data persists any updates made by WordPress to the database. Learn more about docker volumes
 WordPress Multisite works only on ports 80 and 443. 
